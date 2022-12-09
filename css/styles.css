@@ -30,6 +30,9 @@ body {
 .section {
     padding: 94px 0;
 }
+.section-order-images {
+    background-image: url(/images/overlay.jpg), url(/images/background.jpg);
+}
 .logo {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
@@ -117,6 +120,9 @@ body {
 
 .dark-bg {
     background-color: var(--dark);
+    background-image: url(/images/overlay.jpg), url(/images/background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .dark-bg .container > .logo {
